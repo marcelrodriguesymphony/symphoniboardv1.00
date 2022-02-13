@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--css files-->
 <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+
+
 <!---------------------------------------x------------------------->
     <title>Symphoni_template_dashboard</title>
 </head>
@@ -16,55 +22,56 @@
 <div class="aside">
 <div class="top">
     <div class="logo">
-        <h1>SYM<span>PHONI</span></h1>
+        <h1>symph<span>ni</span></h1>
+       <span> <i class="fa-solid fa-dragon"></i> </span>
     </div>
-    <div class="close">
-    <h1>x</h1>
+    <div class="close" id="close">
+    <h1><i class="fa-solid fa-xmark"></i></i></h1>
     </div>
 </div>
 <div class="links">
 <a href="#" class="active">
-<span>@</span>
+<span><i class="fa-solid fa-border-all"></i></span>
 <h3>DashBoard</h3>
 </a>
 
 <a href="#">
-<span>@</span>
+<span><i class="fa-solid fa-user"></i></span>
 <h3>Customers</h3>
 </a>
 
 <a href="#">
-<span>@</span>
+<span><i class="fa-solid fa-cart-shopping"></i></span>
 <h3>Orders</h3>
 </a>
 
 <a href="#">
-<span>@</span>
+<span><i class="fa-solid fa-chart-line"></i></span>
 <h3>Analitics</h3>
 </a>
 
 <a href="#">
-<span>@</span>
+<span><i class="fa-solid fa-message"></i></span>
 <h3>Messages</h3>
 <span class="msg_count">23</span>
 </a>
 
 <a href="#">
-<span>@</span>
+<span>    <i class="fa-solid fa-bag-shopping"></i></span>
 <h3>pruducts</h3>
 </a>
 
 <a href="#">
-<span>@</span>
+<span><i class="fa-solid fa-gears"></i></span>
 <h3>setings</h3>
 </a>
 
 <a href="#">
-<span>@</span>
+<span><i class="fa-solid fa-circle-plus"></i></span>
 <h3>Add pruducts</h3>
 </a>
 <a href="#">
-    <span>@</span>
+    <span><i class="fa-solid fa-arrow-right-from-bracket"></i></span>
     <h3>Logout</h3>
     </a>
 
@@ -79,7 +86,7 @@
 <div class="insights">
   <!--sales div-->
     <div class="sales">
-        <span>@</span>
+        <span><i class="fa-solid fa-money-check-dollar"></i></span>
         <div class="midle">
             <div class="left">
                 <h3>total sales</h3>
@@ -99,7 +106,7 @@
   <!--end sales-->
    <!--income div-->
    <div class="income">
-    <span>@</span>
+    <span><i class="fa-solid fa-circle-dollar-to-slot"></i></span>
     <div class="midle">
         <div class="left">
             <h3>total income</h3>
@@ -119,7 +126,7 @@
 <!--end incom-->
  <!--sales div-->
  <div class="expenses">
-    <span>@</span>
+    <span><i class="fa-solid fa-hand-holding-dollar"></i></span>
     <div class="midle">
         <div class="left">
             <h3>total expenses</h3>
@@ -202,12 +209,12 @@
 
   <div class="right">
       <div class="top">
-          <button>
-              <span>Menu</span>
+          <button id="menu">
+              <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
           </button>
           <div class="theme_togle">
-            <span class="active">@</span>
-            <span>*</span>
+            <span class="active"><i class="fa-solid fa-sun"></i></span>
+            <span >  <i class="fa-solid fa-moon"></i> </span>
           </div>
           <div class="profile">
               <div class="info">
@@ -258,7 +265,7 @@
       <h2>Sales Analitics</h2>
       <div class="item online">
           <div class="icon">
-              <span>@</span>
+              <span><i class="fa-solid fa-cart-shopping"></i></span>
           </div>
           <div class="right">
               <div class="info">
@@ -273,7 +280,7 @@
       </div>
       <div class="item offline">
         <div class="icon">
-            <span>@</span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
         </div>
         <div class="right">
             <div class="info">
@@ -288,7 +295,7 @@
     </div>
     <div class="item custumer">
         <div class="icon">
-            <span>@</span>
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
         </div>
         <div class="right">
             <div class="info">
@@ -303,7 +310,7 @@
     </div>
 <div class="item add_pruduct">
     <div class="">
-        <span>+</span>
+        <span><i class="fa-solid fa-circle-plus"></i></span>
         <h3>Add pruduct</h3>
     </div>
 </div>
@@ -389,7 +396,7 @@
 
 
 
-
-
+<script src="https://kit.fontawesome.com/08bfc1f6b6.js" crossorigin="anonymous"></script>
+<script src="./app.js"></script>
 </body>
 </html>
